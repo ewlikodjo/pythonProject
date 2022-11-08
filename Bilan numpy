@@ -1,0 +1,50 @@
+#Bilan sur numpy
+
+#Attributs utiles
+A.shape
+A.size
+
+#constructeurs
+np.array(objet, dtype)
+np.zeros((shape), dtype)
+np.ones((shape), dtype)
+np.random.randn(lignes, colonnes)
+
+#manipultion
+A.reshape(shape)
+A.ravel()
+A.concatenate(axis)
+
+#Methodes utiles
+A.min(axis)
+A.max(axis)
+A.sum(axis)
+A.mean(axis)
+A.std(axis)
+
+A.argmin(axis)
+A.argmax(axis)
+A.argsort(axis)
+
+#Boolean indexing
+A[A<10]
+
+#scipy
+
+• Le code sur Github :
+https://github.com/MachineLearnia/Pyt...
+
+• Documentation de Scipy:
+https://docs.scipy.org/doc/scipy/refe...
+
+• Fonction interp1d pour faire des interpolations
+https://docs.scipy.org/doc/scipy/refe...
+
+• Module Optimize:
+https://docs.scipy.org/doc/scipy/refe...
+
+• Tutoriel Scipy sur la transformation de Fourier
+https://docs.scipy.org/doc/scipy/refe...
+
+• Module ndimage pour traitement d'image:
+https://docs.scipy.org/doc/scipy/refe...
